@@ -492,3 +492,17 @@ config.bat
 temp-uploads/
 src/Khedr.Web/drivers/
 src/Khedr.Web/vehicles/
+
+# --- cleanup ---
+.vscode/
+.vs/
+bin/
+obj/
+*.user
+node_modules/
+dist/
+dev-dist/
+.env
+.env.*
+!.env.example
+config.bat
